@@ -1,0 +1,251 @@
+{
+    "documents": [
+        {
+            "id": "id__1046",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.5,
+                "neutral": 0.01,
+                "negative": 0.49
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.29,
+                        "neutral": 0.66,
+                        "negative": 0.05
+                    },
+                    "offset": 0,
+                    "length": 7,
+                    "text": "Hello,\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.15,
+                        "neutral": 0.82,
+                        "negative": 0.03
+                    },
+                    "offset": 7,
+                    "length": 114,
+                    "text": "        My name is Mateo Gomez and I visited Contoso Restaurant with my spouse for our anniversary last Thursday. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 121,
+                    "length": 146,
+                    "text": "I had heard wonderful things about your food and service from my neighbors as I lived right down the street from you at 1234 Hollywood Boulevard. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 162,
+                            "length": 4,
+                            "text": "food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 171,
+                            "length": 7,
+                            "text": "service",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 134,
+                            "length": 9,
+                            "text": "wonderful",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.01,
+                        "negative": 0.01
+                    },
+                    "offset": 267,
+                    "length": 91,
+                    "text": "After a lovely stroll along the Santa Monica Pier, we decided to go for dinner at Contoso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.74,
+                        "negative": 0.25
+                    },
+                    "offset": 358,
+                    "length": 98,
+                    "text": "But when we got to the restaurant, we had to wait for 15 minutes just to get on the waiting list. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.72,
+                        "negative": 0.21
+                    },
+                    "offset": 456,
+                    "length": 79,
+                    "text": "After an hour of waiting to get seated, we ordered two Surf and turf platters. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 535,
+                    "length": 58,
+                    "text": "To our absolute surprise, the food was very cold and dry. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 566,
+                            "length": 4,
+                            "text": "food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 580,
+                            "length": 4,
+                            "text": "cold",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 589,
+                            "length": 3,
+                            "text": "dry",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 593,
+                    "length": 101,
+                    "text": "The whole experience was just awful, and I expect a refund for our meal and an apology for that day. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 604,
+                            "length": 10,
+                            "text": "experience",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 624,
+                            "length": 5,
+                            "text": "awful",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.86,
+                        "negative": 0.07
+                    },
+                    "offset": 694,
+                    "length": 95,
+                    "text": "Please issue me a refund at the earliest and call me on 123-456-7890 for any further questions.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ]
+        }
+    ],
+    "errors": []
+}
